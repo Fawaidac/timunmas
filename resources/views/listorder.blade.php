@@ -39,7 +39,7 @@
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center mb-3">
                         <h4 class="card-title mb-0">Data Order</h4>
-                        <span class="badge badge-info">{{ $order->count() }} order</span>
+                        <span class="badge badge-primary">{{ $order->count() }} order</span>
                     </div>
 
                     <div class="table-responsive">

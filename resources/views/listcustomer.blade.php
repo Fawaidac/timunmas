@@ -28,7 +28,7 @@
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center mb-3">
                         <h4 class="card-title mb-0">Data Customer</h4>
-                        <span class="badge badge-success">{{ $data->count() }} customer</span>
+                        <span class="badge badge-primary">{{ $data->count() }} customer</span>
                     </div>
 
                     <div class="table-responsive">

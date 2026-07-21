@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="col-md-3 stretch-card grid-margin">
-            <div class="card bg-warning text-white">
+            <div class="card bg-primary text-white">
                 <div class="card-body">
                     <p class="mb-4">Pending Approval</p>
                     <p class="fs-30 mb-2">{{ $pembayaranPending }}</p>
@@ -31,7 +31,7 @@
             </div>
         </div>
         <div class="col-md-3 stretch-card grid-margin">
-            <div class="card bg-success text-white">
+            <div class="card bg-primary text-white">
                 <div class="card-body">
                     <p class="mb-4">Check-in Hari Ini</p>
                     <p class="fs-30 mb-2">{{ $checkinHariIni }}</p>
@@ -40,7 +40,7 @@
             </div>
         </div>
         <div class="col-md-3 stretch-card grid-margin">
-            <div class="card bg-info text-white">
+            <div class="card bg-primary text-white">
                 <div class="card-body">
                     <p class="mb-4">Barang</p>
                     <p class="fs-30 mb-2">{{ $barang->count() }}</p>
@@ -63,16 +63,16 @@
                                     <td class="text-right"><a href="{{ route('sales.kunjungan.create') }}" class="btn btn-outline-primary btn-sm">Pilih Customer</a></td>
                                 </tr>
                                 <tr>
-                                    <td><i class="icon-bag text-success mr-2"></i> Buat Sales Order</td>
-                                    <td class="text-right"><a href="{{ route('order.tambah2') }}" class="btn btn-outline-success btn-sm">Buat SO</a></td>
+                                    <td><i class="icon-bag text-primary mr-2"></i> Buat Sales Order</td>
+                                    <td class="text-right"><a href="{{ route('order.tambah2') }}" class="btn btn-outline-primary btn-sm">Buat SO</a></td>
                                 </tr>
                                 <tr>
-                                    <td><i class="icon-paper text-warning mr-2"></i> Penagihan</td>
-                                    <td class="text-right"><a href="{{ route('sales.pembayaran.create') }}" class="btn btn-outline-warning btn-sm">Input Bayar</a></td>
+                                    <td><i class="icon-paper text-primary mr-2"></i> Penagihan</td>
+                                    <td class="text-right"><a href="{{ route('sales.pembayaran.create') }}" class="btn btn-outline-primary btn-sm">Input Bayar</a></td>
                                 </tr>
                                 <tr>
-                                    <td><i class="icon-location text-info mr-2"></i> Titik Poin</td>
-                                    <td class="text-right"><a href="{{ route('sales.checkin.create') }}" class="btn btn-outline-info btn-sm">Check-in</a></td>
+                                    <td><i class="icon-location text-primary mr-2"></i> Titik Poin</td>
+                                    <td class="text-right"><a href="{{ route('sales.checkin.create') }}" class="btn btn-outline-primary btn-sm">Check-in</a></td>
                                 </tr>
                             </tbody>
                         </table>

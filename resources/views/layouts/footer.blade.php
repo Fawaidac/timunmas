@@ -4,7 +4,7 @@
             Copyright © {{ date('Y') }} Timun Mas. All rights reserved.
         </span>
         <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">
-            Laravel 10 · MySQL · Skydash
+            Laravel 10 · MySQL 
         </span>
     </div>
 </footer>
